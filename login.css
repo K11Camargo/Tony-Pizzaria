@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 700px;
+    background-image: url(./img/pizza\ background.png);
+    background-repeat: no-repeat;
+    margin-left: 5%;
+
+}
+
+header{
+    height: 150px;
+    align-items: flex-end;
+    display: grid;
+    
+}
+
+.logo{
+    height: 120px;
+    display: inline-flex;
+}
+
+.Tony{
+    padding-top: 34px;
+    width: 90px;
+    word-break: normal;
+    color: #FFFF;
+    font-family: 'Pattaya', sans-serif;
+}
+
+main{   
+    display: grid;
+    height: 450px;
+    align-items: center;
+}
+
+.main{
+    height: 150px;
+    
+}
+
+.Texto{
+    height: 90px;
+    width: 230px;
+    color: #FFFF;
+    font-size: x-large;
+    font-size: 35px;
+    word-break: normal;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.subtexto{
+    height: 60px;
+    width: 320px;
+    color: #FFFF;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+footer{
+    align-items: center;
+    height: 130px;
+    display: grid;
+
+}
+
+.quadrado{
+    background-color: #FFFF;
+    height: 50px;
+    width: 270px;
+    border-radius: 10px;
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;    
+}
+
+.Comecar{
+    color: orange;
+    font-size: x-large;
+    width: 120px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.laranja{
+    background: linear-gradient(180deg, rgba(252, 121, 0, 0.85) 44.07%, rgba(252, 121, 0, 0.00) 100%);
+    width: 360px;
+    height: 800px;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: -1;
+    margin-left: -5%;
+}
+
+.linha1{
+width: 300px;
+}
+
+.linha2{
+    width: 300px;
+    }
