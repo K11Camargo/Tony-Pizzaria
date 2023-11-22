@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 700px;
+    background-image: url(./img/pizza\ background.png);
+    background-repeat: no-repeat;
+    margin-left: 5%;
+
+}
+
+header{
+    height: 150px;
+    align-items: flex-end;
+    display: grid;
+    
+}
+
+.logo{
+    height: 120px;
+    display: inline-flex;
+}
+
+.Tony{
+    padding-top: 34px;
+    width: 90px;
+    word-break: normal;
+    color: #FFFF;
+    font-family: 'Pattaya', sans-serif;
+}
+
+
+main{   
+    display: grid;
+    height: 450px;
+    align-items: end;
+
+}
+
+.main{
+    height: 200px;
+    
+}
+
+.Texto{
+    height: 130px;
+    width: 180px;
+    color: #FFFF;
+    font-size: x-large;
+    font-size: 35px;
+    word-break: normal;
+    
+}
+
+.subtexto{
+    height: 60px;
+    width: 270px;
+    color: #FFFF;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+footer{
+    align-items: center;
+    height: 130px;
+    display: grid;
+
+}
+
+.quadrado{
+    background-color: #FFFF;
+    height: 50px;
+    width: 270px;
+    border-radius: 10px;
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;    
+}
+
+.Comecar{
+    color: orange;
+    font-size: x-large;
+    width: 120px;
+
+}
