@@ -91,6 +91,8 @@ main{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    border: none;
+    background-color: transparent;
 
 }
 
@@ -124,10 +126,13 @@ main{
 
 .emailtxt{
     border: transparent;
-    background: transparent;
     position: absolute;
+    background: none;
+    width: 250px;
     left: 15%;
     bottom: 46.5%;
+    background-color: transparent;
+
 }
 
 ::placeholder{

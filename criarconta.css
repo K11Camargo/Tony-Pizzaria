@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFF;
+}
+
+.laranja{
+    background: linear-gradient(180deg, rgba(252, 156, 67, 0.58) 21.22%, rgba(252, 121, 0, 0.00) 100%);
+    width: 378px;
+    height: 740px;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 3;
+}
