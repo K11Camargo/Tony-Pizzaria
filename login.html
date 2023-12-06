@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css">
+    <script src="main.js" defer></script>
     <title>login</title>
 </head>
 
@@ -27,10 +28,12 @@
         </div>
 
         
+        
+
         <div class="linhaum">
         <div class="email">
             <img src="./img/Email.svg" alt="">
-            <input type="text" class="emailtxt" placeholder="Seu e-mail aqui" id="login"> 
+            <input type="text" class="emailtxt" placeholder="Seu e-mail aqui"> 
         <hr class="linha1">
     </div>
     </div>
@@ -38,15 +41,14 @@
     <div class="linhadois">
     <div class="senha">
         <img src="./img/Lock.svg" alt="">
-        <input type="password" class="senhatxt" placeholder="Sua senha" id="senha"> 
+        <input type="password" class="senhatxt" placeholder="Sua senha"> 
         <hr class="linha2">
 </div>
 </div>
 
         <div class="quadrado">
-            <input type="submit" onclick="logar(); return false" value="Comecar" class="Comecar">
+            <input type="submit" class="Comecar" onclick="logar(); return false">
         </div>
-
     </main>
 
 <footer>
@@ -54,7 +56,7 @@
     <p class="EsqueciSenha">Esqueci a senha</p>
     <div class="criar">
     <p class="NaoTem">Ainda não tem uma conta?</p>
-    <a href="./login.html" class="CriarConta">Criar Conta</a>
+    <p class="CriarConta">Criar Conta</p>
     </div>
 
 </footer>
