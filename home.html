@@ -3,42 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="home.css">
-    <title>Home</title>
+    <title>Tela Home</title>
 </head>
 <body>
-    
-<header>
-   
-    <div class="laranja"></div>
-    <div class="cabeca">
-        <p class="home">Home</p>
-        <p class="BomDia">Bom dia, Celso</p>
-        <div class="foto"></div>
-        <input type="text" class="barra" placeholder="Buscar algo para matar a minha fome"> 
-    </div>
+    <header>
+        <nav>
+            <div class="text">
+                <p class="home">Home</p>
+                <p>Bom dia, Celso</p>
+            </div>
+            <div class="foto">
+                <img src="./img/fotousuario.png" alt="">
+            </div>
+        </nav>
+        <input type="text" id="input" placeholder="Buscar algo para matar a minha fome">
+    </header>
+    <main>
+        <div class="categorias">
+            <p class="title">Categorias</p>
+            <div class="icons">
+                <div class="icon">
+                    <img src="./img/pizza vector.png" alt="" class="pizza">
+                </div>
+                <div class="icon">
+                    <img src="./img/Kawaii Soda.png" alt="" class="pizza">
+                </div>
+                <div class="icon">
+                    <img src="./img/Watermelon.png" alt="" class="pizza">
+                </div>
+                <div class="icon">
+                    <img src="./img/Pizza.png" alt="" class="pizza">
+                </div>
+                <div class="icon">
+                    <img src="./img/Ice Cream Sundae.png" alt="" class="pizza">
+                </div>
+                <div class="icon">
+                    <img src="./img/Kawaii Ice Cream.png" alt="" class="pizza">
+                </div>
+            </div>
+        </div>
 
-</header>
+        <div class="fav">
+            <p class="title">Minhas pizzas favoritas</p>
+            <div class="pizzas">
+                <img src="./img/pizza calabresa.png" alt="">
+                <img src="./img/pizza de peproni.png" alt="">
+            </div>
+        </div>
 
-<main>
+        <div class="recomendados">
+            <p class="title">Recomendados para você</p>
+            <div class="pizzas">
+                <a href="detalheDoProduto.html"><img src="img/pizza da calabresa.png" alt=""></a>
+                <img src="./img/Pizza peperoni.png" alt="">
+            </div>
+        </div>
 
-
-
-
-
-
-
-
-</main>
-
-
-<footer>
-
-    <div class="footerlaranja"></div>
-
-</footer>
-
-
-
+        <div class="bebidas">
+            <p class="title">Bebidas</p>
+            <div class="produtos">
+                <div class="coca">
+                    <img src="./img/coca cola.png" alt="">
+                    <nav>
+                        <div class="produtos_text">
+                            <p class="produtos_title">Coca-cola 2L</p>
+                            <p class="produtos_description">Refrigerante Garrafa 3l Embalagem Econômica</p>
+                        </div>
+                        <div class="preco">
+                            <p>R$ 14,99</p>
+                        </div>
+                    </nav>
+                </div>
+                <div class="coca">
+                    <img src="./img/heineken.png" alt="">
+                    <nav>
+                        <div class="produtos_text">
+                            <p class="produtos_title">Cerveja Heineken</p>
+                            <p class="produtos_description">Refrigerante Garrafa 3l Embalagem Econômica</p>
+                        </div>
+                        <div class="preco">
+                            <p>R$ 17,99</p>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer_icon">
+                <img src="./img/usuario.png" alt="">
+                <p>Meu Perfil</p>
+            </div>
+            <div class="footer_icon">
+                <img src="./img/cerveja.png" alt="">
+                <p>Bebidas</p>
+            </div>
+            <div class="footer_icon">
+                <img src="./img/casinha.png" alt="">
+                <p>Sobremesas</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

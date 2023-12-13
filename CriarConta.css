@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(./img/pizza\ background.png);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.voltar{
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.voltar label{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 3px 0px;
+}
+
+.vector{
+    padding: 0px 26px;
+}
+
+.foto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cinza{
+    background-color: #C4C4C4;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    position: absolute;
+    left: 115px;
+}
+
+.photo{
+    width: 130px;
+    padding: 50px 0px;
+    z-index: 3;
+    display: flex;
+    position: absolute;
+    bottom: 69%;
+}
+
+.escolhafoto{
+    width: 45px;
+    display: flex;
+    background-color: red;
+    height: 45px;
+    border-radius: 100%;
+    position: absolute;
+    left: 55%;
+    top: 20%;
+    z-index: 3;
+}
+
+
+main{
+    height: 70%;
+    width: 100%;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    gap: 70px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+    height: 75%;
+    gap: 30px;
+    padding: 40px 0px;
+}
+
+.inputs label{
+    font-size: 14px;
+    color: #999999;
+}
+
+.inputs input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    height: 34px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao{
+    background-color: #199570;
+    width: 304px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.botao a{
+    text-decoration: none;
+    color: white;
+    font-size: 18.4px;
+    font-weight: 700;
+}
